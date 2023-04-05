@@ -24,3 +24,30 @@
 .mk .red {
     color: red;
 }
+
+.hs .lie-container {
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+.hs .data-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 30px;
+    font-size: 15px;
+}
+
+.hs .part-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 8px;
+}
+
+.hs .pink{
+    color: pink;
+}
+
+.hs .blue{
+    color: rgb(110, 235, 193);
+}
