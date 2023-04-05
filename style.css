@@ -23,6 +23,24 @@
     color: red;
 }
 
+.jm .lie-container {
+    display:flex;
+    column-gap: 20px;
+}
+.jm .data-container {
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.jm .part-container {
+    display:flex;
+    column-gap: 20px;
+}
+
+.jm .red {
+    color: blue;
+}
+
 
 .mj .lie-container {
     display:flex;
