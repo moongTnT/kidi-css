@@ -38,7 +38,7 @@
     display: grid;
     flex-direction: row;
     align-items: center;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 7fr;
 }
 
 .sr .part-container {
