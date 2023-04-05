@@ -23,6 +23,7 @@
     color: red;
 }
 
+
 .mj .lie-container {
     display:flex;
     flex-direction: row;
@@ -52,7 +53,31 @@
 }
 
 
+.sr .lie-container {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+
+    /* font-size: small; */
+}
+
+.sr .data-container {
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    grid-template-columns: 1fr 7fr;
+}
+
+.sr .part-container {
+
+}
+
 .font1{
     font-weight: bold;
+}
+
+.sr .pink {
+    color: pink;
 }
 
