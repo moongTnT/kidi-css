@@ -24,3 +24,22 @@
 .mk .red {
     color: red;
 }
+.ys .lie-container {
+    display: flex;
+    column-gap: 20px;
+}
+.ys .data-container {
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    grid-template-columns: 1fr 4fr;
+}
+.ys .part-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+.ys .red {
+    color: red;
+}
