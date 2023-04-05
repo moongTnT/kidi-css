@@ -24,3 +24,30 @@
 .mk .red {
     color: red;
 }
+
+.sr .lie-container {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+
+    /* font-size: small; */
+}
+
+.sr .data-container {
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sr .part-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}   
+
+.sr .pink {
+    color: pink;
+}
