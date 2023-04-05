@@ -24,3 +24,35 @@
 .mk .red {
     color: red;
 }
+
+.hk .outer-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.hk .inner-container {
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    grid-template-columns: 1fr 5fr;
+}
+
+.hk .detail-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.hk .highlight {
+    color: rgb(255, 80, 109);
+    font-style: italic;
+}
+
+.hk > div {
+    font-size: large;
+}
+
+.hk .bold {
+    font-weight: bold;
+}
