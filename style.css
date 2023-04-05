@@ -24,3 +24,17 @@
 .mk .red {
     color: red;
 }
+ .jh .lie-container {
+    display: flex;
+ }
+ .jh .data-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+ }
+ .jh .part-container {
+    display: flex;
+    column-gap: 10px;
+ }
+ .jh .red{
+    color:red;
+ }
